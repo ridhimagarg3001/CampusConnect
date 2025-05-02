@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Sample data for Chitkara University posts
+    // Sample data for Chitkara University Posts
     const samplePosts = [
         {
             id: 1,
