@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const samplePosts = [
         {
             id: 1,
-            author: 'Rahul Sharma',
+            author: 'Rahul Goyal',
             department: 'CSE',
             avatar: 'RS',
             title: 'Looking for study partners for Data Structures',
