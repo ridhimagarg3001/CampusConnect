@@ -1,7 +1,7 @@
 /* Global Styles */
 :root {
-    --primary-color: #003366; /* Chitkara blue */
-    --secondary-color: #FF6600; /* Chitkara orange */
+    --primary-color: #003366; /* blue */
+    --secondary-color: #FF6600; /* orange */
     --light-color: #f8f9fa;
     --dark-color: #343a40;
     --success-color: #28a745;
@@ -122,7 +122,7 @@ nav a.active {
 }
 
 #registerBtn:hover {
-    background-color: #002244;
+    background-color: #3c0044;
 }
 
 /* Hero Section */
