@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Campus News | CampusConnect</title>
+    <title>Blog Details | CampusConnect</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -11,16 +11,16 @@
     <header>
         <div class="container">
             <div class="logo">
-                <img src="https://www.chitkara.edu.in/wp-content/uploads/2023/05/chitkara-university-logo.png" alt="Chitkara University Logo">
+                <img src="https://d2lk14jtvqry1q.cloudfront.net/media/small_Chitkara_University_e82e2cafa5_62bf4b4545.png" alt="Chitkara University Logo">
                 <h1>CampusConnect</h1>
             </div>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Blogs</a></li>
+                    <li><a href="blog-details.html" class="active">Blogs</a></li>
                     <li><a href="events.html">Events</a></li>
                     <li><a href="study-groups.html">Study Groups</a></li>
-                    <li><a href="campus-news.html" class="active">Campus News</a></li>
+                    <li><a href="campus-news.html">Campus News</a></li>
                 </ul>
             </nav>
             <div class="auth-buttons">
@@ -30,150 +30,204 @@
         </div>
     </header>
 
-    <main class="container campus-news">
-        <div class="news-header">
-            <h2>Campus News & Announcements</h2>
-            <div class="news-filters">
-                <select id="newsCategory">
-                    <option value="all">All Categories</option>
-                    <option value="academic">Academic</option>
-                    <option value="events">Events</option>
-                    <option value="achievements">Achievements</option>
-                    <option value="alerts">Alerts</option>
-                </select>
-                <input type="text" placeholder="Search news..." id="newsSearch">
+    <main class="container blog-details">
+        <div class="blog-content">
+            <div class="blog-header">
+                <div class="author-info">
+                    <div class="author-avatar">RS</div>
+                    <div>
+                        <h3>Rahul Sharma</h3>
+                        <p>CSE • 2 hours ago</p>
+                    </div>
+                </div>
+                <div class="blog-actions">
+                    <button class="action-btn"><i class="far fa-bookmark"></i> Save</button>
+                    <button class="action-btn"><i class="fas fa-share-alt"></i> Share</button>
+                </div>
+            </div>
+            
+            <article>
+                <h2>Looking for study partners for Data Structures</h2>
+                
+                <div class="blog-tags">
+                    <span class="tag">CSE</span>
+                    <span class="tag">Data Structures</span>
+                    <span class="tag">Study Group</span>
+                </div>
+                
+                <div class="blog-body">
+                    <p>I'm preparing for the upcoming Data Structures exam and thought it would be beneficial to form a study group. The exam covers topics like:</p>
+                    
+                    <ul>
+                        <li>Arrays and Linked Lists</li>
+                        <li>Stacks and Queues</li>
+                        <li>Trees and Graphs</li>
+                        <li>Sorting and Searching Algorithms</li>
+                    </ul>
+                    
+                    <p>I've been studying at the central library from 4-7pm on weekdays. If anyone is interested in joining me, we can collaborate on problem-solving and share resources. I have some good practice problems from previous years that we can work through together.</p>
+                    
+                    <p>We can also create a WhatsApp group to coordinate and share materials. Let me know in the comments if you're interested!</p>
+                </div>
+                
+                <div class="blog-stats">
+                    <div class="stat">
+                        <i class="far fa-thumbs-up"></i>
+                        <span>5 Likes</span>
+                    </div>
+                    <div class="stat">
+                        <i class="far fa-comment"></i>
+                        <span>3 Comments</span>
+                    </div>
+                </div>
+            </article>
+            
+            <div class="action-buttons">
+                <button class="like-btn"><i class="far fa-thumbs-up"></i> Like</button>
+                <button class="comment-btn"><i class="far fa-comment"></i> Comment</button>
+            </div>
+            
+            <div class="comments-section">
+                <h3>Comments</h3>
+                
+                <div class="comment-form">
+                    <div class="user-avatar">YP</div>
+                    <input type="text" placeholder="Write a comment...">
+                </div>
+                
+                <div class="comments-list">
+                    <div class="comment">
+                        <div class="comment-author">
+                            <div class="comment-avatar">YP</div>
+                            <div>
+                                <h4>Yash Patel</h4>
+                                <p>1 hour ago</p>
+                            </div>
+                        </div>
+                        <div class="comment-text">
+                            <p>I'm interested! I'm available after 5pm on weekdays. Should we meet tomorrow at the library?</p>
+                        </div>
+                        <div class="comment-actions">
+                            <button>Like</button>
+                            <button>Reply</button>
+                        </div>
+                    </div>
+                    
+                    <div class="comment">
+                        <div class="comment-author">
+                            <div class="comment-avatar">AS</div>
+                            <div>
+                                <h4>Anjali Singh</h4>
+                                <p>45 minutes ago</p>
+                            </div>
+                        </div>
+                        <div class="comment-text">
+                            <p>I have some good notes on graph algorithms that I can share with the group.</p>
+                        </div>
+                        <div class="comment-actions">
+                            <button>Like</button>
+                            <button>Reply</button>
+                        </div>
+                    </div>
+                    
+                    <div class="comment">
+                        <div class="comment-author">
+                            <div class="comment-avatar">MK</div>
+                            <div>
+                                <h4>Mohit Kumar</h4>
+                                <p>30 minutes ago</p>
+                            </div>
+                        </div>
+                        <div class="comment-text">
+                            <p>Can we include some time on weekends too? I have classes till 6pm on weekdays.</p>
+                        </div>
+                        <div class="comment-actions">
+                            <button>Like</button>
+                            <button>Reply</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <div class="news-container">
-            <div class="news-card featured">
-                <div class="news-image">
-                    <img src="https://www.chitkara.edu.in/wp-content/uploads/2023/08/chitkara-university-campus.jpg" alt="Featured News">
-                </div>
-                <div class="news-content">
-                    <span class="news-badge">Featured</span>
-                    <h3>Chitkara University Ranked Among Top 50 Private Universities in India</h3>
-                    <p class="news-meta">
-                        <span><i class="far fa-calendar"></i> October 10, 2023</span>
-                        <span><i class="fas fa-tag"></i> Achievements</span>
-                    </p>
-                    <p class="news-excerpt">Chitkara University has been ranked among the top 50 private universities in India by the prestigious National Institutional Ranking Framework (NIRF) 2023...</p>
-                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+        
+        <aside class="related-blogs">
+            <h3>Related Blogs</h3>
+            
+            <div class="related-blog">
+                <h4>Data Structures Exam Tips</h4>
+                <p>Shared by Neha Gupta • 2 days ago</p>
+                <div class="related-tags">
+                    <span>CSE</span>
+                    <span>Exam</span>
                 </div>
             </div>
-
-            <div class="news-card">
-                <div class="news-image">
-                    <img src="https://www.chitkara.edu.in/wp-content/uploads/2023/07/tech-event.jpg" alt="Tech Event">
-                </div>
-                <div class="news-content">
-                    <h3>Annual Tech Fest InnovateX Begins Next Week</h3>
-                    <p class="news-meta">
-                        <span><i class="far fa-calendar"></i> October 8, 2023</span>
-                        <span><i class="fas fa-tag"></i> Events</span>
-                    </p>
-                    <p class="news-excerpt">The much-awaited annual tech festival InnovateX will be held from October 15-17 with workshops, competitions, and guest lectures from industry leaders...</p>
-                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+            
+            <div class="related-blog">
+                <h4>Algorithm Study Group Forming</h4>
+                <p>Shared by Vikram Joshi • 3 days ago</p>
+                <div class="related-tags">
+                    <span>CSE</span>
+                    <span>Algorithms</span>
                 </div>
             </div>
-
-            <div class="news-card">
-                <div class="news-content">
-                    <h3>Mid-Term Examination Schedule Released</h3>
-                    <p class="news-meta">
-                        <span><i class="far fa-calendar"></i> October 5, 2023</span>
-                        <span><i class="fas fa-tag"></i> Academic</span>
-                    </p>
-                    <p class="news-excerpt">The schedule for mid-term examinations has been released. Exams will be conducted from November 1-10 across all departments...</p>
-                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+            
+            <div class="related-blog">
+                <h4>Best Programming Resources</h4>
+                <p>Shared by Sanjana Patel • 1 week ago</p>
+                <div class="related-tags">
+                    <span>Programming</span>
+                    <span>Resources</span>
                 </div>
             </div>
-
-            <div class="news-card">
-                <div class="news-image">
-                    <img src="https://www.chitkara.edu.in/wp-content/uploads/2023/06/placement.jpg" alt="Placements">
-                </div>
-                <div class="news-content">
-                    <h3>Record Placements This Year - 92% Students Placed</h3>
-                    <p class="news-meta">
-                        <span><i class="far fa-calendar"></i> October 3, 2023</span>
-                        <span><i class="fas fa-tag"></i> Achievements</span>
-                    </p>
-                    <p class="news-excerpt">Chitkara University has achieved a record 92% placements this year with highest package of ₹42 LPA from Microsoft...</p>
-                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
-                </div>
+            
+            <div class="department-cta">
+                <h4>Join CSE Department Community</h4>
+                <p>Connect with all Computer Science students</p>
+                <button>Join Now</button>
             </div>
-
-            <div class="news-card">
-                <div class="news-content">
-                    <h3>Library to Remain Open 24/7 During Exams</h3>
-                    <p class="news-meta">
-                        <span><i class="far fa-calendar"></i> October 1, 2023</span>
-                        <span><i class="fas fa-tag"></i> Academic</span>
-                    </p>
-                    <p class="news-excerpt">The central library will remain open 24 hours a day during the examination period from November 1-20...</p>
-                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-
-            <div class="news-card">
-                <div class="news-image">
-                    <img src="https://www.chitkara.edu.in/wp-content/uploads/2023/05/sports.jpg" alt="Sports">
-                </div>
-                <div class="news-content">
-                    <h3>Inter-University Sports Competition Winners</h3>
-                    <p class="news-meta">
-                        <span><i class="far fa-calendar"></i> September 28, 2023</span>
-                        <span><i class="fas fa-tag"></i> Achievements</span>
-                    </p>
-                    <p class="news-excerpt">Our university teams won 3 gold medals in the recent Inter-University Sports Competition held at Punjab University...</p>
-                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="news-pagination">
-            <button class="pagination-btn active">1</button>
-            <button class="pagination-btn">2</button>
-            <button class="pagination-btn">3</button>
-            <button class="pagination-btn next">Next <i class="fas fa-chevron-right"></i></button>
-        </div>
+        </aside>
     </main>
 
     <footer>
-        <!-- Same footer as index.html -->
+        <div class="container">
+            <div class="footer-logo">
+                <img src="https://d2lk14jtvqry1q.cloudfront.net/media/small_Chitkara_University_e82e2cafa5_62bf4b4545.png" alt="Chitkara University Logo" width="150">
+                <p>CampusConnect - Bridging Students Together</p>
+            </div>
+            <div class="footer-links">
+                <div class="links-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="links-column">
+                    <h4>University Links</h4>
+                    <ul>
+                        <li><a href="https://www.chitkara.edu.in" target="_blank">Chitkara University</a></li>
+                        <li><a href="https://elearn.chitkara.edu.in" target="_blank">E-Learning</a></li>
+                        <li><a href="https://career.chitkara.edu.in" target="_blank">Career Portal</a></li>
+                    </ul>
+                </div>
+                <div class="links-column">
+                    <h4>Connect With Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 CampusConnect. All rights reserved.</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
-    <script>
-        // Campus News page specific JavaScript
-        document.addEventListener('DOMContentLoaded', function() {
-            const newsCategory = document.getElementById('newsCategory');
-            const newsSearch = document.getElementById('newsSearch');
-            const paginationBtns = document.querySelectorAll('.pagination-btn');
-            
-            // Filter functionality
-            newsCategory.addEventListener('change', filterNews);
-            newsSearch.addEventListener('input', filterNews);
-            
-            function filterNews() {
-                const category = newsCategory.value;
-                const searchTerm = newsSearch.value.toLowerCase();
-                console.log(`Filtering news by: ${category} and search term: ${searchTerm}`);
-                // In a real app, this would filter the news items
-            }
-            
-            // Pagination
-            paginationBtns.forEach(btn => {
-                btn.addEventListener('click', function() {
-                    if (this.classList.contains('active') || this.classList.contains('next')) return;
-                    
-                    paginationBtns.forEach(b => b.classList.remove('active'));
-                    this.classList.add('active');
-                    // In a real app, this would load the corresponding page
-                });
-            });
-        });
-    </script>
 </body>
 </html>
