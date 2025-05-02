@@ -176,7 +176,7 @@ document.addEventListener('DOMContentLoaded', function() {
             email,
             studentId,
             department,
-            password, // Note: In production, hash passwords!
+            password, 
             createdAt: new Date().toISOString(),
             avatar: name.split(' ').map(n => n[0]).join('')
         };
