@@ -51,8 +51,8 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             id: 5,
-            author: 'Vikram Joshi',
-            department: 'ME',
+            author: 'Vikram Singh',
+            department: 'CSE',
             avatar: 'VJ',
             title: 'Mechanical Workshop Volunteers Needed',
             content: 'The mechanical department is organizing a workshop next week and needs volunteers. Great opportunity to learn practical skills!',
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             id: 6,
-            author: 'Sanjana Patel',
+            author: 'Sanjana Sharma',
             department: 'Architecture',
             avatar: 'SP',
             title: 'Campus Photography Club - First Meeting',
