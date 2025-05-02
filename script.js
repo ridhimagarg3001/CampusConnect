@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             id: 5,
             author: 'Vikram Singh',
-            department: 'ME',
+            department: 'CSE',
             avatar: 'VJ',
             title: 'Mechanical Workshop Volunteers Needed',
             content: 'The mechanical department is organizing a workshop next week and needs volunteers. Great opportunity to learn practical skills!',
