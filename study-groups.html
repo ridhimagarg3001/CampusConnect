@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Groups | CampusConnect</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="https://d2lk14jtvqry1q.cloudfront.net/media/small_Chitkara_University_e82e2cafa5_62bf4b4545.png" alt="Chitkara University Logo">
+                <h1>CampusConnect</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog-details.html">Blogs</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="study-groups.html" class="active">Study Groups</a></li>
+                    <li><a href="campus-news.html">Campus News</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button id="loginBtn">Login</button>
+                <button id="registerBtn">Register</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container study-groups">
+        <div class="page-header">
+            <h2>Study Groups at Chitkara University</h2>
+            <div class="group-actions">
+                <input type="text" placeholder="Search study groups..." id="groupSearch">
+                <button id="createGroupBtn">Create New Group</button>
+            </div>
+        </div>
+        
+        <div class="groups-container">
+            <div class="group-card">
+                <div class="group-header">
+                    <h3>Data Structures & Algorithms</h3>
+                    <span class="member-count"><i class="fas fa-users"></i> 12 members</span>
+                </div>
+                <div class="group-details">
+                    <p><strong>Course:</strong> CSE 205 - Data Structures</p>
+                    <p><strong>Focus:</strong> Exam preparation, problem solving</p>
+                    <p><strong>Schedule:</strong> Mon, Wed, Fri 4-6pm at Library</p>
+                </div>
+                <div class="group-footer">
+                    <div class="group-tags">
+                        <span>CSE</span>
+                        <span>2nd Year</span>
+                        <span>Exam Prep</span>
+                    </div>
+                    <button class="join-btn">Join Group</button>
+                </div>
+            </div>
+            
+            <div class="group-card">
+                <div class="group-header">
+                    <h3>Advanced Mathematics</h3>
+                    <span class="member-count"><i class="fas fa-users"></i> 8 members</span>
+                </div>
+                <div class="group-details">
+                    <p><strong>Course:</strong> MAT 301 - Advanced Calculus</p>
+                    <p><strong>Focus:</strong> Problem sets, theory discussion</p>
+                    <p><strong>Schedule:</strong> Tue, Thu 3-5pm at Math Dept</p>
+                </div>
+                <div class="group-footer">
+                    <div class="group-tags">
+                        <span>Engineering</span>
+                        <span>3rd Year</span>
+                    </div>
+                    <button class="join-btn">Join Group</button>
+                </div>
+            </div>
+            
+            <div class="group-card">
+                <div class="group-header">
+                    <h3>Business Case Studies</h3>
+                    <span class="member-count"><i class="fas fa-users"></i> 6 members</span>
+                </div>
+                <div class="group-details">
+                    <p><strong>Course:</strong> BBA 202 - Business Strategy</p>
+                    <p><strong>Focus:</strong> Case study analysis</p>
+                    <p><strong>Schedule:</strong> Flexible online meetings</p>
+                </div>
+                <div class="group-footer">
+                    <div class="group-tags">
+                        <span>BBA</span>
+                        <span>Case Studies</span>
+                    </div>
+                    <button class="join-btn">Join Group</button>
+                </div>
+            </div>
+            
+            <div class="group-card">
+                <div class="group-header">
+                    <h3>Pharmacy Study Circle</h3>
+                    <span class="member-count"><i class="fas fa-users"></i> 15 members</span>
+                </div>
+                <div class="group-details">
+                    <p><strong>Course:</strong> Multiple pharmacy courses</p>
+                    <p><strong>Focus:</strong> Collaborative learning</p>
+                    <p><strong>Schedule:</strong> Daily 5-7pm at Pharmacy Block</p>
+                </div>
+                <div class="group-footer">
+                    <div class="group-tags">
+                        <span>Pharmacy</span>
+                        <span>All Years</span>
+                    </div>
+                    <button class="join-btn">Join Group</button>
+                </div>
+            </div>
+            
+            <div class="group-card">
+                <div class="group-header">
+                    <h3>Programming Club</h3>
+                    <span class="member-count"><i class="fas fa-users"></i> 25 members</span>
+                </div>
+                <div class="group-details">
+                    <p><strong>Focus:</strong> Competitive programming, projects</p>
+                    <p><strong>Activities:</strong> Code reviews, hackathons</p>
+                    <p><strong>Schedule:</strong> Weekly meetings, online</p>
+                </div>
+                <div class="group-footer">
+                    <div class="group-tags">
+                        <span>CSE</span>
+                        <span>Programming</span>
+                        <span>Club</span>
+                    </div>
+                    <button class="join-btn">Join Group</button>
+                </div>
+            </div>
+            
+            <div class="group-card">
+                <div class="group-header">
+                    <h3>Mechanical Engineering Projects</h3>
+                    <span class="member-count"><i class="fas fa-users"></i> 5 members</span>
+                </div>
+                <div class="group-details">
+                    <p><strong>Focus:</strong> Project collaboration</p>
+                    <p><strong>Current Project:</strong> Solar-powered vehicle</p>
+                    <p><strong>Schedule:</strong> Workshop hours</p>
+                </div>
+                <div class="group-footer">
+                    <div class="group-tags">
+                        <span>ME</span>
+                        <span>Projects</span>
+                    </div>
+                    <button class="join-btn">Join Group</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="create-group-guide">
+            <h3>Can't find a group for your needs?</h3>
+            <p>Create your own study group and invite classmates to join. Study groups are a great way to collaborate, share resources, and prepare for exams together.</p>
+            <button id="guideCreateGroupBtn">Create New Study Group</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <img src="https://www.chitkara.edu.in/wp-content/uploads/2023/05/chitkara-university-logo.png" alt="Chitkara University Logo" width="150">
+                <p>CampusConnect - Bridging Students Together</p>
+            </div>
+            <div class="footer-links">
+                <div class="links-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="links-column">
+                    <h4>University Links</h4>
+                    <ul>
+                        <li><a href="https://www.chitkara.edu.in" target="_blank">Chitkara University</a></li>
+                        <li><a href="https://elearn.chitkara.edu.in" target="_blank">E-Learning</a></li>
+                        <li><a href="https://career.chitkara.edu.in" target="_blank">Career Portal</a></li>
+                    </ul>
+                </div>
+                <div class="links-column">
+                    <h4>Connect With Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 CampusConnect. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Study Groups page specific JavaScript
+        document.addEventListener('DOMContentLoaded', function() {
+            const createGroupBtn = document.getElementById('createGroupBtn');
+            const guideCreateGroupBtn = document.getElementById('guideCreateGroupBtn');
+            const groupSearch = document.getElementById('groupSearch');
+            const joinBtns = document.querySelectorAll('.join-btn');
+            
+            // Create group button handlers
+            createGroupBtn.addEventListener('click', showCreateGroupForm);
+            guideCreateGroupBtn.addEventListener('click', showCreateGroupForm);
+            
+            function showCreateGroupForm() {
+                alert('Study group creation form will open. This would connect to backend in a real application.');
+            }
+            
+            // Join group button handlers
+            joinBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const groupName = this.closest('.group-card').querySelector('h3').textContent;
+                    alert(`You've requested to join ${groupName}. The group admin will be notified.`);
+                });
+            });
+            
+            // Search functionality
+            groupSearch.addEventListener('input', function() {
+                const searchTerm = this.value.toLowerCase();
+                const groups = document.querySelectorAll('.group-card');
+                
+                groups.forEach(group => {
+                    const groupText = group.textContent.toLowerCase();
+                    if (groupText.includes(searchTerm)) {
+                        group.style.display = 'block';
+                    } else {
+                        group.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

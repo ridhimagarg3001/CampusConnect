@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
+    <title>Campus News | CampusConnect</title>
+=======
     <title>Blog Details | CampusConnect</title>
+>>>>>>> 4ec0163d22d1d1b1316878c23ee89fbb16320f09
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -11,16 +15,27 @@
     <header>
         <div class="container">
             <div class="logo">
+<<<<<<< HEAD
+                <img src="https://www.chitkara.edu.in/wp-content/uploads/2023/05/chitkara-university-logo.png" alt="Chitkara University Logo">
+=======
                 <img src="https://d2lk14jtvqry1q.cloudfront.net/media/small_Chitkara_University_e82e2cafa5_62bf4b4545.png" alt="Chitkara University Logo">
+>>>>>>> 4ec0163d22d1d1b1316878c23ee89fbb16320f09
                 <h1>CampusConnect</h1>
             </div>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
+<<<<<<< HEAD
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="study-groups.html">Study Groups</a></li>
+                    <li><a href="campus-news.html" class="active">Campus News</a></li>
+=======
                     <li><a href="blog-details.html" class="active">Blogs</a></li>
                     <li><a href="events.html">Events</a></li>
                     <li><a href="study-groups.html">Study Groups</a></li>
                     <li><a href="campus-news.html">Campus News</a></li>
+>>>>>>> 4ec0163d22d1d1b1316878c23ee89fbb16320f09
                 </ul>
             </nav>
             <div class="auth-buttons">
@@ -30,6 +45,153 @@
         </div>
     </header>
 
+<<<<<<< HEAD
+    <main class="container campus-news">
+        <div class="news-header">
+            <h2>Campus News & Announcements</h2>
+            <div class="news-filters">
+                <select id="newsCategory">
+                    <option value="all">All Categories</option>
+                    <option value="academic">Academic</option>
+                    <option value="events">Events</option>
+                    <option value="achievements">Achievements</option>
+                    <option value="alerts">Alerts</option>
+                </select>
+                <input type="text" placeholder="Search news..." id="newsSearch">
+            </div>
+        </div>
+
+        <div class="news-container">
+            <div class="news-card featured">
+                <div class="news-image">
+                    <img src="https://www.chitkara.edu.in/wp-content/uploads/2023/08/chitkara-university-campus.jpg" alt="Featured News">
+                </div>
+                <div class="news-content">
+                    <span class="news-badge">Featured</span>
+                    <h3>Chitkara University Ranked Among Top 50 Private Universities in India</h3>
+                    <p class="news-meta">
+                        <span><i class="far fa-calendar"></i> October 10, 2023</span>
+                        <span><i class="fas fa-tag"></i> Achievements</span>
+                    </p>
+                    <p class="news-excerpt">Chitkara University has been ranked among the top 50 private universities in India by the prestigious National Institutional Ranking Framework (NIRF) 2023...</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="news-card">
+                <div class="news-image">
+                    <img src="https://www.chitkara.edu.in/wp-content/uploads/2023/07/tech-event.jpg" alt="Tech Event">
+                </div>
+                <div class="news-content">
+                    <h3>Annual Tech Fest InnovateX Begins Next Week</h3>
+                    <p class="news-meta">
+                        <span><i class="far fa-calendar"></i> October 8, 2023</span>
+                        <span><i class="fas fa-tag"></i> Events</span>
+                    </p>
+                    <p class="news-excerpt">The much-awaited annual tech festival InnovateX will be held from October 15-17 with workshops, competitions, and guest lectures from industry leaders...</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="news-card">
+                <div class="news-content">
+                    <h3>Mid-Term Examination Schedule Released</h3>
+                    <p class="news-meta">
+                        <span><i class="far fa-calendar"></i> October 5, 2023</span>
+                        <span><i class="fas fa-tag"></i> Academic</span>
+                    </p>
+                    <p class="news-excerpt">The schedule for mid-term examinations has been released. Exams will be conducted from November 1-10 across all departments...</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="news-card">
+                <div class="news-image">
+                    <img src="https://www.chitkara.edu.in/wp-content/uploads/2023/06/placement.jpg" alt="Placements">
+                </div>
+                <div class="news-content">
+                    <h3>Record Placements This Year - 92% Students Placed</h3>
+                    <p class="news-meta">
+                        <span><i class="far fa-calendar"></i> October 3, 2023</span>
+                        <span><i class="fas fa-tag"></i> Achievements</span>
+                    </p>
+                    <p class="news-excerpt">Chitkara University has achieved a record 92% placements this year with highest package of ₹42 LPA from Microsoft...</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="news-card">
+                <div class="news-content">
+                    <h3>Library to Remain Open 24/7 During Exams</h3>
+                    <p class="news-meta">
+                        <span><i class="far fa-calendar"></i> October 1, 2023</span>
+                        <span><i class="fas fa-tag"></i> Academic</span>
+                    </p>
+                    <p class="news-excerpt">The central library will remain open 24 hours a day during the examination period from November 1-20...</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="news-card">
+                <div class="news-image">
+                    <img src="https://www.chitkara.edu.in/wp-content/uploads/2023/05/sports.jpg" alt="Sports">
+                </div>
+                <div class="news-content">
+                    <h3>Inter-University Sports Competition Winners</h3>
+                    <p class="news-meta">
+                        <span><i class="far fa-calendar"></i> September 28, 2023</span>
+                        <span><i class="fas fa-tag"></i> Achievements</span>
+                    </p>
+                    <p class="news-excerpt">Our university teams won 3 gold medals in the recent Inter-University Sports Competition held at Punjab University...</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="news-pagination">
+            <button class="pagination-btn active">1</button>
+            <button class="pagination-btn">2</button>
+            <button class="pagination-btn">3</button>
+            <button class="pagination-btn next">Next <i class="fas fa-chevron-right"></i></button>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Campus News page specific JavaScript
+        document.addEventListener('DOMContentLoaded', function() {
+            const newsCategory = document.getElementById('newsCategory');
+            const newsSearch = document.getElementById('newsSearch');
+            const paginationBtns = document.querySelectorAll('.pagination-btn');
+            
+            // Filter functionality
+            newsCategory.addEventListener('change', filterNews);
+            newsSearch.addEventListener('input', filterNews);
+            
+            function filterNews() {
+                const category = newsCategory.value;
+                const searchTerm = newsSearch.value.toLowerCase();
+                console.log(`Filtering news by: ${category} and search term: ${searchTerm}`);
+                // In a real app, this would filter the news items
+            }
+            
+            // Pagination
+            paginationBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    if (this.classList.contains('active') || this.classList.contains('next')) return;
+                    
+                    paginationBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    // In a real app, this would load the corresponding page
+                });
+            });
+        });
+    </script>
+=======
     <main class="container blog-details">
         <div class="blog-content">
             <div class="blog-header">
@@ -229,5 +391,6 @@
     </footer>
 
     <script src="script.js"></script>
+>>>>>>> 4ec0163d22d1d1b1316878c23ee89fbb16320f09
 </body>
 </html>
