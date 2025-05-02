@@ -122,7 +122,7 @@ nav a.active {
 }
 
 #registerBtn:hover {
-    background-color: #3c0044;
+    background-color: #002244;
 }
 
 /* Hero Section */
@@ -176,7 +176,7 @@ nav a.active {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Features Section */
+
 .features {
     display: flex;
     justify-content: space-between;
