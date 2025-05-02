@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Sample data for Chitkara University posts
+    // Sample data for Chitkara University Posts
     const samplePosts = [
         {
             id: 1,
-            author: 'Rahul Sharma',
+            author: 'Rahul Goyal',
             department: 'CSE',
             avatar: 'RS',
             title: 'Looking for study partners for Data Structures',
