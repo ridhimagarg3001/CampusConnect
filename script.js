@@ -306,7 +306,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Event Listeners
+    
     if (createPostBtn) {
         createPostBtn.addEventListener('click', () => {
             openModal(postModal);
